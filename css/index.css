@@ -64,103 +64,41 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-/* *{
-	border: 1px solid red;
-} */
-nav{
-	
-	text-align: center;
-
+ /* *{
+    border: 1px solid red; */
 }
-nav a {
-	margin: 30px;
-	text-decoration: none;
-	color: black;
+.nav {
+    display: flex;
+    justify-content: space-evenly;
 }
-.head{
-	width:80%;
-	margin: 0 auto;
+.header {
+    display: flex;
+    justify-content: space-evenly;
 }
-a{
-	width:20%;
-	margin:2%;
+.innovation {
+    display: flex;
+    justify-content: center;
 }
-/* second */
-.second{
-	width: 100%;
-	text-align: justify;
-	display: inline-block;
-	margin: 40px 0;
-	padding: 5px;
+h1 {
+    font-size: 50px;
+    text-align: center;
 }
-.services{
-	float: left;
-	width: 33%;
+.button {
+    text-align: center;
+    border: 1px solid black;
 }
-.product{
-	float: left;
-	width: 33%;
-	padding-left: 25px;
+.first {
+    display: flex;
+    justify-content: space-evenly;
 }
-.vision{
-	float: left;
-	width: 33%;
-	padding-left: 25px;
+#banner {
+    display: flex;
+    justify-content: center;
 }
-/* first */
-.first{
-	width: 100%;
-	text-align: justify;
-	display: inline-block;
-	margin: 40px 0;
-	padding: 5px;
+.second {
+    display: flex;
+    justify-content: space-evenly;
 }
-.features{
-	float: left;
-	width: 50%;
-	padding-left: 25px;
+footer {
+    text-align: center;
 }
-.about{
-	float: left;
-	width: 50%;
-	padding-left: 25px;
-}
-/*banner*/
-.middle-img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-  }
-/*footer*/
-footer{
-	text-align: center;
-}
-/* header */
-.header{
-	width:100%;
-	text-align: justify;
-	display: inline-block;
-	margin: 10px 0;
-	padding: 5px;
-}
-.circle{
-	float: right;
-	width: 40%;
-	padding-left: 25px;
-	height: 350px;
-}
-.Innovation{
-	float: left;
-	width: 50%;
-	padding-left: 25px;
-	height: 300px;
-	font-size: 50px;
-	text-align: center;
-}.button {
-	border: 1px solid black ;
-	font-size: 20px;
-  } 
-
-
-
