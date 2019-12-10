@@ -64,8 +64,14 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
- /* *{
-    border: 1px solid red; */
+*{
+    border: 1px solid red; 
+}
+body {
+    margin: 2%;
+}
+.invisable{
+    display: none;
 }
 .nav {
     display: flex;
@@ -90,10 +96,11 @@ h1 {
 .first {
     display: flex;
     justify-content: space-evenly;
+    margin: 1%;
 }
 #banner {
-    display: flex;
-    justify-content: center;
+    max-width: 99%;
+    text-align: center;
 }
 .second {
     display: flex;
@@ -101,4 +108,35 @@ h1 {
 }
 footer {
     text-align: center;
+}
+/* Media */
+@media (max-width: 800px) {
+    .circle {
+        display: none;
+    }
+    .logoabove {
+        display: none;
+    }
+    .invisable{
+        display: block;
+        display: flex;
+        justify-content: center;
+        margin: 2%;
+    }
+}
+@media (max-width: 500px) {
+    .nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    a {
+        padding: 3%;
+    }
+    .first {
+        flex-direction: column;
+    }
+    .second {
+        flex-direction: column;
+    }
 }
